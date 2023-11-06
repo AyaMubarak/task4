@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+  
+}
+.container1{
+    width:80%;
+    display: flex;
+    margin: auto;
+  justify-content: flex-start;
+  align-items:center;
+gap:450px;
+
+}
+ .logo img{
+    width:70%;
+    height:50%;
+    margin-top:10px;
+}
+.list ul {
+    list-style-type: none;
+        display: flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: right;
+    align-items: flex-start;
+}
+.list ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.protfilo{
+background-color: burlywood;
+text-align: center;
+
+}
+.container2{
+    margin: auto;
+    width: 80%;
+display: flex;
+flex-direction: column;
+gap:15px;
+}
+.iteams{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.iteams img{
+  width: 300px;
+}
